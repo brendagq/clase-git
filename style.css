@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+button{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+    padding: 1rem 1.5rem;
+}

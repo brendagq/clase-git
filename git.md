@@ -30,6 +30,7 @@ git add -A : Añade TODOS los archivos que se encuentren en el working directory
 git commit -m "mensaje de commit": Genera un commit. Guarda todo lo que se encuentra en el staging area en el repositorio local
 
 
+
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 

@@ -33,9 +33,9 @@ git checkout "rama" : Nos mueve hacia la rama señalada. Guardar modificaciones 
 git branch -a : Lista TODAS las ramas
 git merge "rama-origen": Trae todos los cambios que haya en la rama de origen hacia la rama de destino. NOTA: Debemos encontrarnos 'parados' en la rama hacia la cual queremos traer los cambios
 git log : Nos muestra un listado con los diferentes commits realizados
-git reset --soft "id-commit" :  Deshace el commit señalado y todos los posteriores a él. Los cambios que se encontraban en el repositorio regresan al staging area
-git reset --mixed "id-commit" :  Deshace el commit señalado y todos los posteriores a él. Los cambios que se encontraban en el repositorio regresan al working directory
-git reset --hard "id-commit" :  Deshace el commit señalado y todos los posteriores a él. Los cambios que se encontraban en el repositorio se eliminan
+git reset --soft "id-commit" : Deshace los commits posteriores a el commit señalado. Los cambios que se encontraban en el repositorio regresan al staging area
+git reset --mixed "id-commit" : Deshace los commits posteriores a el commit señalado. Los cambios que se encontraban en el repositorio regresan al working directory
+git reset --hard "id-commit" : Deshace los commits posteriores a el commit señalado. Los cambios que se encontraban en el repositorio se eliminan
 
 
 git remote add origin urlRepositorioRemoto : Establece un repositorio remoto de destino
